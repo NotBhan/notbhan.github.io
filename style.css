@@ -7,7 +7,7 @@ body{
 }
 .hero .container{
   background-color: #343a4030;
-  padding: 28vh;
+  padding: 28vw;
   backdrop-filter: blur(10px);
   border-radius: 35px;
 }
