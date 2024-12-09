@@ -1,0 +1,119 @@
+.blog-title{
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.featured-posts{
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.clickable-text{
+    transition: ease-in-out;
+    transition-duration: 0.3s;
+    text-decoration: underline transparent;
+    
+}
+.clickable-text:hover{
+    transition: ease-in-out;
+    transition-duration: 0.3s;
+    text-decoration: underline rgba(255, 255, 255, 0.491);
+}
+.clickable-img{
+    transition: ease-in-out;
+    transition-duration: 0.3s;
+    transform: scale(1.0);
+    
+}
+.clickable-img:hover{
+    transition: ease-in-out;
+    transition-duration: 0.3s;
+    transform: scale(1.5);
+}
+@media screen and (max-width: 575.98px){
+    .blog-title{
+        max-width: 90%;
+    }
+    .featured-posts{
+        max-width: 90%;
+    }
+    .featured-post-card .img-fluid{
+        object-fit: fill;
+        height: 100%;
+        width: 1920px;
+        overflow: hidden;
+    }
+    .featured-post-card .rounded-start{
+        border-radius: 0.375rem;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 767.98px){
+    .blog-title{
+        max-width: 85%;
+    }
+    .featured-posts{
+        max-width: 85%;
+    }
+    .featured-post-card .img-fluid{
+        object-fit: cover;
+        height: 100%;
+        width: 1920px;
+        overflow: hidden;
+    }
+    .featured-post-card .rounded-start{
+        border-radius: 0.25rem;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991.98px){
+    .blog-title{
+        max-width: 80%;
+    }
+    .featured-posts{
+        max-width: 80%;
+    }
+    .featured-post-card .img-fluid{
+        object-fit: cover;
+        height: 100%;
+        overflow: hidden;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1199.98px){
+    .blog-title{
+        max-width: 70%;
+    }
+    .featured-posts{
+        max-width: 70%;
+    }
+    .featured-post-card .img-fluid{
+        object-fit: cover;
+        height: 100%;
+        overflow: hidden;
+    }
+}
+@media screen and (min-width: 1200px) and (max-width: 1399.98px){
+    .blog-title{
+        max-width: 60%;
+    }
+    .featured-posts{
+        max-width: 60%;
+    }
+    .featured-post-card .img-fluid{
+        object-fit: cover;
+        height: 100%;
+        overflow: hidden;
+    }
+}
+@media screen and (min-width: 1400px){
+    .blog-title{
+        max-width: 50%;
+    }
+    .featured-posts{
+        max-width: 50%;
+    }
+    .featured-post-card .img-fluid{
+        object-fit: cover;
+        height: 100%;
+        overflow: hidden;
+    }
+}
